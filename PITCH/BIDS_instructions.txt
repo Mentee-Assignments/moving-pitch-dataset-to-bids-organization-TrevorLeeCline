@@ -1,0 +1,19 @@
+source anat:
+[0-9]+/{exercise,control}/T1/FSLORIENT/T1_RPI.nii.gz
+
+source bold:
+
+task-flanker
+[0-9]+/{exercise,control}/{pre,post}/FLANKER/{run1,run2}/Flanker{1,2}Raw.nii.gz
+
+task-rest
+[0-9]+/{exercise,control}/{pre,post}/rsOut/func/RestingStateRaw.nii.gz
+
+_asl
+[0-9]+/{exercise,control}/{pre,post}/CBF_calc_1_5spld.nii.gz
+
+
+Just to get started, the basic BIDS directory structure would look like this:
+sub-01/ses-ExercisePre/func
+sub-01/anat
+^since there is only one anatomical in the study
