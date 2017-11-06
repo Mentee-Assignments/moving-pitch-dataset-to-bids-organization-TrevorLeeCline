@@ -3,7 +3,7 @@ Goal: take the PITCH dataset and rename/move files so they conform to the BIDS s
 
 ## Getting Started, Step 0
 1) clone this repository: click on the green clone/download button and select the copy to clipboard option
-2) On your linux computer, open a terminal and type `git clone https://github.com/Mentee-Assignments/moving-pitch-dataset-to-bids-organization-TrevorLeeCline.git
+2) On your linux computer, open a terminal and type `git clone https://github.com/Mentee-Assignments/moving-pitch-dataset-to-bids-organization-TrevorLeeCline.git`
 3) `cd` into your newly cloned repository
 ### after you make a change
 1) say you added a txt file called "file.txt" in the top level directory (e.g. PitchToBids/file.txt)
